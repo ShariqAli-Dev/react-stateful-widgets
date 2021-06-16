@@ -33,13 +33,11 @@ import React, { useState } from 'react'; /* STEP 0 */
 const initialMood = 'Not sure how I feel';
 const happyMood = 'Quite happy!';
 const sadMood = 'Rather sad';
-const isHappy = mood === happyMood;
 
 
 export default function Moods() {
   /* STEP 1 */
   const [mood, setMood] = useState(initialMood);
-<<<<<<< HEAD
   const isHappy = mood === happyMood;
 
   const makeHappy = () => {
@@ -52,8 +50,8 @@ export default function Moods() {
   };
   const reset = () => {
     /* STEP 6 */
-    setMood(initialMood);  
-};
+    setMood(initialMood);
+  };
 
   const style = {
     fontSize: '1.5em',
